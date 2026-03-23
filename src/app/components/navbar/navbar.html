@@ -1,0 +1,21 @@
+<nav class="navbar">
+
+  <!-- Logo -->
+  <div class="logo">⚡ MyPortfolio</div>
+
+  <!-- Menu -->
+  <ul [class.active]="isOpen">
+    <li><a routerLink="/" routerLinkActive="active" (click)="isOpen=false">Home</a></li>
+    <li><a routerLink="/about" routerLinkActive="active" (click)="isOpen=false">About</a></li>
+    <li><a routerLink="/projects" routerLinkActive="active" (click)="isOpen=false">Projects</a></li>
+    <li><a routerLink="/contact" routerLinkActive="active" (click)="isOpen=false">Contact</a></li>
+  </ul>
+
+  <!-- Hamburger -->
+  <div class="menu-toggle" [class.open]="isOpen" (click)="toggleMenu()">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+
+</nav>
