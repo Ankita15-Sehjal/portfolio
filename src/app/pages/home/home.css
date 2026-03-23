@@ -230,9 +230,7 @@
 
   .hero-image img {
   width: 250px;
-  border-radius: 25px;
-  animation: float 5s ease-in-out infinite;
-  box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+ 
 }
 
   .hero-text h1 {
